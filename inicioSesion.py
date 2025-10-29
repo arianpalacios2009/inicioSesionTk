@@ -11,7 +11,10 @@ def home():
     home.title("Inicio")
     home.geometry("320x400")
 
-    bienvenida = tk.Label(home, text="Bienvenido a Instagram")
+    cuadro2 = tk.Frame(home, bg="violet", bd=3, relief="ridge")
+    cuadro2.pack(pady=40, padx=20, fill="both", expand=True)
+
+    bienvenida = tk.Label(cuadro2, text="Bienvenido a Instagram", bg="violet")
     bienvenida.pack(pady=80)
 
 cuadro = tk.Frame(ventana, bg="pink", bd=3, relief="ridge")
