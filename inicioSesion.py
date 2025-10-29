@@ -11,17 +11,17 @@ def home():
     home.title("Inicio")
     home.geometry("320x400")
 
-    cuadro2 = tk.Frame(home, bg="yellow", bd=3, relief="ridge")
+    cuadro2 = tk.Frame(home, bg="red", bd=3, relief="ridge")
     cuadro2.pack(pady=40, padx=20, fill="both", expand=True)
 
-    bienvenida = tk.Label(cuadro2, text="Bienvenido a Instagram", bg="yellow")
+    bienvenida = tk.Label(cuadro2, text="Bienvenido a Instagram", bg="red")
     bienvenida.pack(pady=80)
 
 cuadro = tk.Frame(ventana, bg="pink", bd=3, relief="ridge")
 cuadro.pack(pady=40, padx=20, fill="both", expand=True)
 
 
-titulo_labapp = tk.Label(cuadro, text= "instagram", font= "arial", bg= "pink")
+titulo_labapp = tk.Label(cuadro, text= "instagram", font= "oswald", bg= "pink")
 titulo_labapp.pack(pady=15)
 
 
@@ -37,8 +37,8 @@ entrada_contrasena = tk.Entry(cuadro)
 entrada_contrasena.pack(pady=5)
 
 
-usuario_correcto = "jokernull"
-contrasena_correcta = "1"
+usuario_correcto = "arian y maxi"
+contrasena_correcta = "67"
 
 
 def iniciar_sesion():
