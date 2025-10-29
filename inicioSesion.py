@@ -37,7 +37,7 @@ entrada_contrasena = tk.Entry(cuadro)
 entrada_contrasena.pack(pady=5)
 
 
-usuario_correcto = "arian y maxi"
+usuario_correcto = "carlos"
 contrasena_correcta = "67"
 
 
